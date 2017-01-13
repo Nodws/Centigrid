@@ -1,0 +1,60 @@
+body{
+  font:normal 14px/18px sans-serif;
+}
+.centigrid {
+ display: flex;
+ flex-wrap: wrap;
+  width:100%;
+}
+.centigrid div{
+  padding:10px;
+  box-sizing:border-box;
+  flex-grow: 1;
+}
+.centigrid.nopadding > div{
+  padding:0;  
+}
+.centigrid img{
+  max-width:100%;
+  height:auto
+}
+.col1 {
+ flex-basis: 10%;
+ min-width:100px; 
+}
+.col2 {
+ flex-basis: 20%;
+ min-width:8em 
+}
+.col4{
+  flex-basis: 40%;
+  min-width:16em;
+}
+.middle{
+  align-self: center;
+}
+.center{
+ display: flex;
+  justify-content: center;
+  align-items:     center;
+}
+.bottom{
+  align-self:flex-end
+}
+.text-center{
+  text-align:center
+}
+.text-justify{
+  text-align:justify;
+  text-align-last:center;
+}
+.button{
+  color:#666;
+  background:#ccc;
+  padding:10px 20px;
+   box-shadow:0 -100px 0 rgba(0,0,0,0) inset;
+  transition:all 0.2s linear;
+}
+.button:hover{
+  box-shadow:0 -100px 0 rgba(0,0,0,0.2) inset
+}
