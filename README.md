@@ -11,10 +11,15 @@ Grid is based on a 100% width, so col1 will be 10%, col2 20%, and so on until co
 
 ## Styling 
 That's the best part! Centigrid doesn't mess with your poppies 
+    javascript
+    if (isAwesome){
+     return true
+    }
 
-# Example
+# Example`
 
-  <div class="centigrid">
+```html
+<div class="centigrid">
     <div class="col4 middle">
       <img src="https://placeimg.com/440/480/animals">
     </div>
@@ -26,4 +31,5 @@ That's the best part! Centigrid doesn't mess with your poppies
     <div class="col2 middle center">
       <a href="#" class="button"> BUY NOW </a>
     </div>
-  </div>
+  </div>
+```
