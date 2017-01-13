@@ -4,17 +4,13 @@ Centigrid is a straightforward  grid system based on flexbox and percentages tha
 ## Install
 Just include the file before your main styles
 
-    <link href="assets/css/centigrid.css" rel="stylesheet">
-    
+    `<link href="assets/css/centigrid.css" rel="stylesheet">`
+    
 ## The grid
 Grid is based on a 100% width, so col1 will be 10%, col2 20%, and so on until col10 (full width)
 
 ## Styling 
 That's the best part! Centigrid doesn't mess with your poppies 
-    javascript
-    if (isAwesome){
-     return true
-    }
 
 # Example
 
