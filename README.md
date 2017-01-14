@@ -13,7 +13,8 @@ Grid is based on a 100% width, so col1 will be 10%, col2 20%, and so on until co
 That's the best part! Centigrid doesn't mess with your poppies 
 
 ## Example
-<iframe height='365' scrolling='no'  src='//codepen.io/nodws/embed/vyJEoX/?height=265&theme-id=light&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+http://codepen.io/nodws/pen/vyJEoX
+
 ### Markup
 ```html
 <div class="centigrid">
